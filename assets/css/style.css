@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /*------------------------------------------------Colors*/
 
 
 /*------------------------------------------------Header*/
 
-
+.logo{
+    background: url("../pictures/cover1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding: 190px;
+}
 
 /*------------------------------------------------Footer*/
 
 
 
 /*------------------------------------------------Miscellaneous Stylings*/
-
-
-
-
