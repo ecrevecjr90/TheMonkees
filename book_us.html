@@ -42,19 +42,35 @@
         <section class="container-fluid">
                 <div class="row">
                     <form class="booking-form-name">
-                        Name (First and Last):<br>
-                        <input type:"text" name="name"><br>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="name">First and Last Name</label>
+                            </div>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fullname" name="name">
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="phone-number">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="col-75">
+                            <input type:"text" name="phone-number">
+                        </div>
                         Phone Number: <br>
-                        <input type:"" name="phone-number"><br>
-                        Desired Date:<br>
-                        <input type:"" name="desired-date"><br>
-                    <select name="number of guests"><br>
-                        Amount of Guests:<br>
-                        <option value:"10-50">10-50</option>
-                        <option value:"50-100">50-100</option>
-                        <option value:"100+">100+</option>
-                    </select><br>
                     
+                        Desired Date:<br>
+                        <input type:"text" name="desired-date"><br>
+                        Desired Venue:<br>
+                        <input type:"text" name="desired-venue"><br>
+                        Amount of Guests:<br>
+                    <select name="number of guests">
+                        <option value:"10-50">100-500</option>
+                        <option value:"50-100">500-1,000</option>
+                        <option value:"1,000+">1,000+</option>
+                    </select>
+                    </div>
                     </form>
                 </div>
         </section>
