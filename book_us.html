@@ -56,20 +56,45 @@
                             </div>
                         </div>
                         <div class="col-75">
-                            <input type:"text" name="phone-number">
+                            <input type:"text" id="number" name="phone-number">
                         </div>
-                        Phone Number: <br>
-                    
-                        Desired Date:<br>
-                        <input type:"text" name="desired-date"><br>
-                        Desired Venue:<br>
-                        <input type:"text" name="desired-venue"><br>
-                        Amount of Guests:<br>
-                    <select name="number of guests">
-                        <option value:"10-50">100-500</option>
-                        <option value:"50-100">500-1,000</option>
-                        <option value:"1,000+">1,000+</option>
-                    </select>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="desired-date">Desired Date</label>
+                            </div>
+                        </div>
+                        <div class="col-75">
+                            <input type:"text" id="date" name="desired-date">
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="desired-venue">Desired Venue</label>
+                            </div>
+                        </div>
+                        <div class="col-75">
+                            <input type:"text" id="vendor" name="desired-venue">
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="number-of-guests">Number of Guests</label>
+                          </div>
+                        <div class="col-75">
+                        <select id="guests" name="number-of-guests">
+                            <option value:"10-50">100-500</option>
+                            <option value:"50-100">500-1,000</option>
+                            <option value:"1,000+">1,000+</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject</label>
+                      </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Please provide details about the event and venue here..." style="height:200px"></textarea>
+                      </div>
+                       <div class="row">
+                          <input type="submit" value="Submit">
+                        </div>
                     </div>
                     </form>
                 </div>
@@ -85,7 +110,7 @@
                         <a href="https://twitter.com/themonkees?lang=en" target="_blank" class="fa fa-twitter"></a>
                     </li>
                      <li>
-                        <a href="#" class="fa fa-snapchat-ghost"></a>
+                        <a href="#" class="fa fa-instagram"></a>
                     </li>
                      <li>
                         <a href="#" class="fa fa-youtube"></a>

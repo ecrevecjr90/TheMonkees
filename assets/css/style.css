@@ -2,53 +2,34 @@
 
 /*------------------------------------------------Colors*/
 
-.top-left{
-    color: #00FFFF;
-}
-
-.top-left-subheading{
-    color:	#00FFFF;
-}
-
-html, body {
-    color: black;
-}
 
 /*-------------------------------------------------Special Paddings/Margins/Text*/
 
-.container-fluid {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
 
 /*------------------------------------------------Background Image*/
 
-html,body{
-    height: 100%;
-}
 
-.bg{
-    background-image: url("../assets/pictures/monkees.jpg");
-    margin: 0;
-    height: 100%; 
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /*------------------------------------------------Header*/
 
 
+
 /*------------------------------------------------Footer*/
 
+#footer{
+    padding: 20 px;
+    
+}
+.contact-us{
+    
+}
 
-/*------------------------------------------------Miscellaneous Stylings*/
+.fa-facebook{
+    
+}
+
+/*------------------------------------------------Biography Page*/
+
+
+/*-------Submission Section*/
 
