@@ -2,6 +2,15 @@
 
 /*------------------------------------------------Colors*/
 
+body{
+    background-color: #a53400;
+    color: #000000;
+    text-align: center;
+}
+
+.navbar{
+    background-color: 
+}
 
 /*-------------------------------------------------Special Paddings/Margins/Text*/
 
@@ -16,17 +25,32 @@
 
 /*------------------------------------------------Footer*/
 
-#footer{
-    padding: 20 px;
-    
+footer{
+    background-color: #0f0c06;
+    opacity: .6;
+    display: block;
 }
-.contact-us{
-    
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .fa-facebook{
-    
+    color: #eff1fc;
 }
+
+.fa-facebook:hover{
+    opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+
 
 /*------------------------------------------------Biography Page*/
 
