@@ -3,13 +3,14 @@
 /*------------------------------------------------Colors*/
 
 body{
-    background-color: #a53400;
+    background-color: #607aa0;
     color: #000000;
     text-align: center;
 }
 
 .navbar{
-    background-color: 
+    background-color: #9dacb2;
+    height: 50px;
 }
 
 /*-------------------------------------------------Special Paddings/Margins/Text*/
@@ -21,13 +22,42 @@ body{
 
 /*------------------------------------------------Header*/
 
+header{
+    display: block;
+}
 
+.logo{
+    background: url("../assets/pictures/band.jpg");
+    margin: 20px;
+    padding: 0;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    margin: 0;
+}
+
+.navbar a {
+    float: center;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-item-home:hover{
+    background: #e84610;
+    
+}
 
 /*------------------------------------------------Footer*/
 
 footer{
     background-color: #0f0c06;
-    opacity: .6;
+    opacity: .8;
     display: block;
 }
 
@@ -40,7 +70,7 @@ footer{
 }
 
 .fa-facebook{
-    color: #eff1fc;
+    color: #036bc6;
 }
 
 .fa-facebook:hover{
@@ -50,10 +80,41 @@ footer{
     color:#438de8;
 }
 
+.fa-twitter{
+    color: #0288ef;
+}
 
+.fa-twitter:hover{
+     opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+.fa-instagram{
+    color: #efbe6e;
+}
+
+.fa-instagram:hover{
+     opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+
+.fa-youtube{
+    color: #e81f09;
+}
+
+.fa-youtube:hover{
+     opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
 
 /*------------------------------------------------Biography Page*/
 
 
 /*-------Submission Section*/
-
