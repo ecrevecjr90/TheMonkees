@@ -9,9 +9,17 @@ body{
 }
 
 
-/*------------------------------------------------Background Image*/
+/*------------------------------------------------Tour Dates*/
 
+.tour-date-heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
 
+.tour-dates{
+    font-family: "Exo", sans-serif;
+}
 
 /*------------------------------------------------Header*/
 
