@@ -39,21 +39,27 @@ body{
 /*------------------------------------------------Header*/
 
 header{
-    display: block;
+    display: inline-block;
 }
 
 .logo{
-    margin: 15px;
-    padding: 0;    
+    background: url("../assets/pictures/band.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    float: left;
 }
 
 .navbar{
-    margin: 20px;
+    margin: 0;
+    padding: 0;
     background-color: #9dacb2;
     height: 50px;
+    list-style-type: none;
+}
+
+.navbar-items{
+    display: inline;
 }
 
 .navbar a {
