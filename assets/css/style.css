@@ -3,7 +3,7 @@
 /*------------------------------------------------Colors*/
 
 body{
-    background-color: #607aa0;
+    background-color: #ffffff;
     color: #000000;
     text-align: center;
 }
@@ -43,7 +43,7 @@ header{
 }
 
 .logo{
-    background: url("../assets/pictures/band.jpg");
+    background: url("./assests/pictures/band.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
