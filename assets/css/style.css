@@ -56,7 +56,7 @@ header{
 }
 
 .logo{
-    background: url("./assests/pictures/band.jpg");
+    background: url("assets/pictures/band.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
